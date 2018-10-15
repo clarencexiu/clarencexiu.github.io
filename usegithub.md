@@ -96,9 +96,11 @@ Resolving deltas: 100% (4/4), done.
 创建文件
 6.**git add 文件名**
  增加需要添加的文件
-7.**git status **
+7.**git status**
 显示他的状态
 8.**git commit -m "first commit"**
 提交
-9.**git push -u origin master **
+9**git config --global user.email "623531383@qq.com"**
+10**git config --global user.name "clarecexiu"**
+11.**git push -u origin master**
 将本地的master分支推送到origin主机
