@@ -35,7 +35,7 @@ git bash
 1.**git clone +地址**
 复制文件,注意地址在github的数据库右边绿色按钮Clone or download 点开使用Clone with SSH 然后复制其地址
 然后选择yes
-跳出如下：
+跳出如下:
 
 ```
 Warning: Permanently added 'github.com,192.30.253.113' (RSA) to the list of known hosts.
