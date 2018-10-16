@@ -2,38 +2,68 @@
 https://github.com/
 
 ### 特点
+
 代码管理工具
+
 svn集中式
+
 git分布式
 
+
 ### 需下载
+
 git bash
 
+
 ### 指令
+
 打开 git bash
-1.**pwd**
+
+1. **pwd**
+
 显示当前路径
-2.**cd /**
+
+2. **cd /**
+
 进入根目录
-3.**ls**
+
+3. **ls**
+
 显示该路径下的所有文件和文件夹名
-4.**cd~**
+
+4. **cd~**
+
 进入用户主目录
-5.**cd -**
+
+5. **cd -**
+
   返回进入此目录之前所在的目录
-6.**cd ..**
+  
+6. **cd ..**
+
   返回上级目录(若当前目录为"/",则执行完后还在"/";".."为上级目录的意思);
-7.**cd ../..**
+  
+7. **cd ../..**
+
   返回上两级目录;
-8.**mkdir 文件夹名**
+  
+8. **mkdir 文件夹名**
+
 创建文件夹
-9.**touch 文件名.md**
+
+9. **touch 文件名.md**
+
 创建文件
 
+
 ### 复制文件
-1.**git clone +地址**
+
+1. **git clone + 地址**
+
 复制文件,注意地址在github的数据库右边绿色按钮Clone or download 点开使用Clone with SSH 然后复制其地址
+
 然后选择yes
+
 跳出如下:
 
 ```
@@ -45,9 +75,13 @@ Please make sure you have the correct access rights
 and the repository exists.
 
 ```
+
 进行下面操作
-2.**ssh-keygen -t rsa -C "你的邮箱"**
+
+2. **ssh-keygen -t rsa -C "你的邮箱"**
+
 生成公钥,然后紧跟三次回车显示
+
 
 ```
 Generating public/private rsa key pair.
@@ -72,9 +106,12 @@ The key's randomart image is:
 +----[SHA256]-----+
 
 ```
+
 根据以上代码第六行 /c/Users/Administrator/.ssh/id_rsa.pub.寻找该文件打开复制粘贴至
-github--右上角个人信息--Setting--SSH and GPG keys--右边New SSH Key
-3.**git clone +地址**
+github,右上角个人信息,Setting,SSH and GPG keys,右边New SSH Key
+
+3. **git clone + 地址**
+
 克隆成功显示
 
 ```
@@ -88,18 +125,33 @@ Receiving objects: 100% (14/14), 2.94 KiB | 88.00 KiB/s, done.
 Resolving deltas: 100% (4/4), done.
 
 ```
+
 (文件出现在当前路径下,注意调整路径控制文件复制位置)
-4.**cd 地址**
+
+4. **cd 地址**
+
 进入复制文件的地址(可以先用ls确认)
+
 5. **touch 文件名.md**
+
 创建文件
-6.**git add 文件名**
+
+6. **git add 文件名**
+
  增加需要添加的文件
-7.**git status**
+ 
+7. **git status**
+
 显示他的状态
-8.**git commit -m "first commit"**
+
+8. **git commit -m "first commit"**
+
 提交
-9**git config --global user.email "623531383@qq.com"**
-10**git config --global user.name "clarecexiu"**
-11.**git push -u origin master**
+
+9. **git config --global user.email "623531383@qq.com"**
+
+10. **git config --global user.name "clarecexiu"**
+
+11. **git push -u origin master**
+
 将本地的master分支推送到origin主机
