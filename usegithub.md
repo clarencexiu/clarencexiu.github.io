@@ -5,7 +5,7 @@ https://github.com/
 代码管理工具
 svn集中式(左图)
 git分布式(右图)
-![在这里插入图片描述](https://img-blog.csdn.net/20181015200314540?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQzMDAzNjI5/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
+
 
 ### 需下载
 git bash
