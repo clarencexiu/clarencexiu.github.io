@@ -1,4 +1,3 @@
 ﻿# 目录
 - git
-    - git blog build
-	- [use github](https://clarencexiu.github.io/usegithub)
+    - [git blog build](https://clarencexiu.github.io/git/blog)
