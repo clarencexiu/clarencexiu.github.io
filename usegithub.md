@@ -3,8 +3,8 @@ https://github.com/
 
 ### 特点
 代码管理工具
-svn集中式（左图）
-git分布式（右图）
+svn集中式(左图)
+git分布式(右图)
 ![在这里插入图片描述](https://img-blog.csdn.net/20181015200314540?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQzMDAzNjI5/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
 
 ### 需下载
@@ -19,13 +19,13 @@ git bash
 3.**ls**
 显示该路径下的所有文件和文件夹名
 4.**cd~**
-进入用户主目录；
+进入用户主目录;
 5.**cd -**
-  返回进入此目录之前所在的目录；
+  返回进入此目录之前所在的目录;
 6.**cd ..**
-  返回上级目录（若当前目录为“/“，则执行完后还在“/"；".."为上级目录的意思）；
+  返回上级目录(若当前目录为"/",则执行完后还在"/";".."为上级目录的意思);
 7.**cd ../..**
-  返回上两级目录；
+  返回上两级目录;
 8.**mkdir 文件夹名**
 创建文件夹
 9.**touch 文件名.md**
@@ -33,7 +33,7 @@ git bash
 
 ###  复制文件
 1.**git clone +地址**
-复制文件，注意地址在github的数据库右边绿色按钮Clone or download 点开使用Clone with SSH 然后复制其地址
+复制文件,注意地址在github的数据库右边绿色按钮Clone or download 点开使用Clone with SSH 然后复制其地址
 然后选择yes
 跳出如下：
 
@@ -48,7 +48,7 @@ and the repository exists.
 ```
 进行下面操作
 2.**ssh-keygen -t rsa -C "你的邮箱"**
-生成公钥，然后紧跟三次回车显示
+生成公钥,然后紧跟三次回车显示
 
 ```
 Generating public/private rsa key pair.
@@ -89,9 +89,9 @@ Receiving objects: 100% (14/14), 2.94 KiB | 88.00 KiB/s, done.
 Resolving deltas: 100% (4/4), done.
 
 ```
-（文件出现在当前路径下，注意调整路径控制文件复制位置）
+(文件出现在当前路径下,注意调整路径控制文件复制位置)
 4.**cd 地址**
-进入复制文件的地址（可以先用ls确认）
+进入复制文件的地址(可以先用ls确认)
 5. **touch 文件名.md**
 创建文件
 6.**git add 文件名**
