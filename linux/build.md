@@ -17,7 +17,8 @@
 		- shutdown -h now 立刻关机(root用户使用)
 		- shutdown -h 10 10分钟后自动关机
 - linux运行级别
-配置文件：/etc/inittab
+配置文件：/etc/inittab  
+
 |运行级别 |级别说明                       |  
 |---------|-------------------------------|  
 |0        |所有进程将被终止,机器将有序的停止,关机时系统处于这个运行级别|  
@@ -61,3 +62,6 @@
 该命令可以立即改变SELinux运行状态，在Enforcing 和Permissive 之间切换，关机重启之后失效。
 		- 永久有效 修改配置文件
 vi /etc/selinux/config (将SELINUX=enforcing修改为SELINUX=disabled重启生效)
+
+[返回首页](https://clarencexiu.github.io)
+
