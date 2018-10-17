@@ -1,7 +1,6 @@
 git使用
-
 * 一.如果是直接从远程仓库进行克隆
-	* 1.git clone 仓库路径
+    * 1.git clone 仓库路径
 	* 2.创建自己的文件
 	* 3.git add 要上传的文件
 	* 4.git commit -m "提交的信息"
