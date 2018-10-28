@@ -4,4 +4,8 @@
 	- [git的使用](https://clarencexiu.github.io/git/use)
 - Linux
 	- [Linux的搭建](https://clarencexiu.github.io/linux/build)
-	- [Linux指令](https://clarencexiu.github.io/linux/order)
+	- [Linux指令1]-(https://clarencexiu.github.io/linux/order)
+	- [Linux指令2]-(https://clarencexiu.github.io/linux/order2)
+	- [Linux指令3]-(https://clarencexiu.github.io/linux/order3)
+	- [sed]-(https://clarencexiu.github.io/linux/sed)
+	- [awk]-(https://clarencexiu.github.io/linux/awk)
