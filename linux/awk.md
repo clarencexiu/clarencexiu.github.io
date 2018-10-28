@@ -1,16 +1,16 @@
-awk ÐÐ¶ÁÈ¡
-#### awkµÄ»ù±¾¸ñÊ½ 
-awk optionsÑ¡Ïî 'command' file
-NR ÐÐºÅ
-NF ÁÐÊý
+awk è¡Œè¯»å–
+#### awkçš„åŸºæœ¬æ ¼å¼ 
+awk optionsé€‰é¡¹ 'command' file
+NR è¡Œå·
+NF åˆ—æ•°
 $1,$n
--F ÉèÖÃ·Ö¸ô·û Ä¬ÈÏÇé¿öÏÂÊÇÊ¹ÓÃ¿Õ¸ñÀ´½øÐÐ·Ö¸î
+-F è®¾ç½®åˆ†éš”ç¬¦ é»˜è®¤æƒ…å†µä¸‹æ˜¯ä½¿ç”¨ç©ºæ ¼æ¥è¿›è¡Œåˆ†å‰²
 print
 printf
-ÒªÊ¹ÓÃÕýÔò: ~/ÕýÔòÆ¥Åä¹æÔò/
-Èç¹ûÓÃ!~¾ÍÊÇ¶ÔÕýÔòÆ¥ÅäµÄÄÚÈÝÈ¡·Ç 
-#### awkµÄÀ©Õ¹¸ñÊ½
-awk [-f|-f|-v] 'BEGIN{} Õ¾Î»ÁÐ~/ÕýÔò/{´úÂë¿é} END{}' filepath
-- Àý×Ó
+è¦ä½¿ç”¨æ­£åˆ™: ~/æ­£åˆ™åŒ¹é…è§„åˆ™/
+å¦‚æžœç”¨!~å°±æ˜¯å¯¹æ­£åˆ™åŒ¹é…çš„å†…å®¹å–éž 
+#### awkçš„æ‰©å±•æ ¼å¼
+awk [-f|-f|-v] 'BEGIN{} ç«™ä½åˆ—~/æ­£åˆ™/{ä»£ç å—} END{}' filepath
+- ä¾‹å­
 	- awk -F ':' '{if($3>150) printf("Line:%2s Col:%s User:%15s UserId\n",NR,NF,$1,$3)}' /etc/passwd
 	- awk -F ':' 'BEGIN{print "Line Col  UserID User"} {prinf("%4s %3s %7s %s\n",NR,NF,$3,$1)} END{print"------FILENAME-----"} /etc/passwd
