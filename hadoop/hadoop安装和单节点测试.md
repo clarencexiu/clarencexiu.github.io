@@ -20,3 +20,4 @@ export HADOOP_HOME=/home/hadoop/tars/hadoop-2.7.3 #hadoop解压包所在路径
 	- 记得关闭防火墙:systemctl disable firewalld 永久关闭防火墙;systemctl stop firewalld 暂时关闭防火墙,下次启动,需要再次关闭.
 - 7.执行命令:cat output/*
 	- 是指查看6的命令的运行结果.
+[返回首页](https://clarencexiu.github.io)

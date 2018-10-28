@@ -28,3 +28,4 @@ scp -r /home/tars/hadoop-2.7.3/etc/hadoop hadoop@172.18.24.190:/home/tars/hadoop
 - 找到datanode虚拟机的hadoop的解压包下的logs文件夹下的namenode的log文件打开,会发现hostname的错误.这时,在namenode的/etc/hosts文件中添加三个datanode和namenode虚拟机的ip和对应给他取个名字即可.
 	- 例如: 172.18.24.190  datanode1
 	- 172.18.24.28 namenode
+[返回首页](https://clarencexiu.github.io)

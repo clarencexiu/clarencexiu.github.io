@@ -14,3 +14,4 @@ awk [-f|-f|-v] 'BEGIN{} 站位列~/正则/{代码块} END{}' filepath
 - 例子
 	- awk -F ':' '{if($3>150) printf("Line:%2s Col:%s User:%15s UserId\n",NR,NF,$1,$3)}' /etc/passwd
 	- awk -F ':' 'BEGIN{print "Line Col  UserID User"} {prinf("%4s %3s %7s %s\n",NR,NF,$3,$1)} END{print"------FILENAME-----"} /etc/passwd
+	[返回首页](https://clarencexiu.github.io)

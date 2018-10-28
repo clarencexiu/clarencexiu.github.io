@@ -59,3 +59,4 @@
 - bzip2 压缩(解压)文件或目录,压缩文件后缀为bz2
 	- 命令格式:bzip2 [-cdz] 文档名
 		- -c:将压缩的过程产生
+[返回首页](https://clarencexiu.github.io)
