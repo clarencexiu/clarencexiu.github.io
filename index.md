@@ -7,5 +7,10 @@
 	- [Linux指令1]-(https://clarencexiu.github.io/linux/order)
 	- [Linux指令2]-(https://clarencexiu.github.io/linux/order2)
 	- [Linux指令3]-(https://clarencexiu.github.io/linux/order3)
+	- [Linux指令4]-(https://clarencexiu.github.io/linux/order4)
 	- [sed]-(https://clarencexiu.github.io/linux/sed)
 	- [awk]-(https://clarencexiu.github.io/linux/awk)
+- hadoop
+	- [hadoop安装和单节点测试]-(https://clarencexiu.github.io/hadoop/hadoop安装和单节点测试)
+	- [hadoop伪分布式]-(https://clarencexiu.github.io/hadoop/hadoop伪分布式)	
+	- [hadoop完全分布式配置]-(https://clarencexiu.github.io/hadoop/hadoop完全分布式配置)
